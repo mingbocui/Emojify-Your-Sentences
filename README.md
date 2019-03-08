@@ -14,7 +14,7 @@ For Model 2: python -m Emojify-V2.py
 Based on the Glove word2vector map we can represent every word with a vector, then add every word-vector appeared in the sentence followed by a softmax we could get a average vector which represent this sentence. Using linear regression which train Weight and bias based on gradient descent we could get a 5-dimensional output(Because we only have 5 emojis). Finding the index which the max value resides in this vector could lead us to find the correct emojis.  
 Word-Vector representation is powerful, but it suffers from **inability** to memory the context of words, for example, if you input "I feel not very happy", the model will give your the output of:  
 "I feel not very happy 😄"  
-![dataset](https://github.com/mingbocui/Emojify-Your-Sentences/blob/master/images/data_set.png)
+<img src="https://github.com/mingbocui/Emojify-Your-Sentences/blob/master/images/data_set.png" style="width:100px;height:50;">  
 ![work process](https://github.com/mingbocui/Emojify-Your-Sentences/blob/master/images/image_1.png)
 
 ## Model 2: LSTM comes to the rescue
