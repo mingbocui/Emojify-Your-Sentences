@@ -68,7 +68,7 @@ pred_test = predict(X_test, Y_test, W, b, word_to_vec_map)
 
 ########################## TEST PART #################################
 
-#we can observe our model could detect some special words like
+#we can observe our model could detect some special words like "adore" and "love"
 X_my_sentences = np.array(["i adore you", "i love you", "funny lol", "lets play with a ball", "food is ready", "not feeling happy"])
 Y_my_labels = np.array([[0], [0], [2], [1], [4], [3]])
 pred = predict(X_my_sentences, Y_my_labels , W, b, word_to_vec_map)
