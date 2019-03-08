@@ -1,8 +1,8 @@
 # Emojify-Your-Sentences❤️❤️❤️❤️
 
-This repository provides two ways of adding emoji to your sentences, just like:\\
-"I love you ❤️"
-"I am so sad 😞"
+#### This repository provides two ways of adding emoji to your sentences, just like:  
+"I love you ❤️"  
+"I am so sad 😞"  
 ### How to start?  
 just clone every thing to your local computer and *unzip* the glove.txt in the data folder.   
 ```python  
